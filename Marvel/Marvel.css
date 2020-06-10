@@ -1,0 +1,238 @@
+body {
+    color: white;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    padding: 3px;
+    height: 13vh;
+    position: fixed;
+    width: 100%;
+    top: -10px;
+    border-bottom: 2px solid rgb(155, 0, 0);
+    font-family: 'Bangers', cursive;
+    transition: top 0.3s;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #ff0000;
+    border: none;
+    font-family: Bangers;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+
+}
+
+.button span:hover {
+    padding-right: 15px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    background-color: black;
+}
+
+
+header {
+    background-image: url(Images/deadpool.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    padding: 0px;
+    border-bottom: 5px solid black;
+}
+
+label {
+    color: gainsboro;
+    font-size: 16pt;
+}
+
+header a {
+    font-size: 16pt;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+header .logo a {
+    background-image: url(Images/TeamImages/HomeLogo.png);
+    background-size: 100px;
+    background-repeat: none;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    text-indent: -9999px;
+    width: 100px;
+    top: -40px;
+}
+
+.logo a:hover {
+    background-size: 105px;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    /* get rid of dot points */
+}
+
+header nav ul li {
+    display: inline-block;
+    /*put list horizontal */
+    margin-left: 20px;
+
+}
+
+.headerMessage {
+    position: absolute;
+    text-align: left;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-family: bangers;
+    font-size: 36pt;
+    -webkit-text-stroke: 1px black;
+}
+
+h1 {
+    margin: 10px 20px;
+}
+
+#teams {
+    position: relative;
+    width: 100%;
+    font-family: bangers;
+    font-size: 36pt;
+    left: 10%;
+    top: 5%;
+    color: black;
+
+}
+
+.shields {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    margin: 0;
+
+}
+
+.shields figure {
+    flex: 1 1 25%;
+    background-image: url(Images/TeamImages/HomeLogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+
+
+}
+
+.shields figure:hover {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#LL:hover {
+    background-image: url("Images/TeamImages/ShieldLogo.png");
+
+}
+
+#LC:hover {
+    background-image: url("Images/TeamImages/avengersLogo.png");
+}
+
+#RC:hover {
+    background-image: url("Images/TeamImages/HydraLogo.png");
+}
+
+#RR:hover {
+    background-image: url("Images/TeamImages/XmenIcon.png");
+}
+
+
+footer {
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+
+    height: 30vh;
+
+    background-color: black;
+    font-family: Roboto;
+    color: white;
+
+    border-bottom: 5px solid black;
+}
+
+#FooterLogo {
+    padding-top: 20px;
+    margin-left: 2%;
+    flex-basis: 12%;
+    text-align: center;
+}
+
+#FooterLogo img {
+    width: 200px;
+}
+
+.Social {
+    margin-top: 30px;
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.Social li {
+    list-style-type: none;
+}
+
+.Social img {
+    width: 40px;
+}
+
+
+#VisitUs {
+    margin-top: 30px;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.rightFooterSections {
+    text-align: center;
+    margin-top: 30px;
+    flex-basis: 24%;
+}
