@@ -121,7 +121,7 @@ header nav ul li {
     text-align: left;
     top: 40%;
     left: 20%;
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -50%);
     font-family: bangers;
     font-size: 36pt;
     -webkit-text-stroke: 1px black;
