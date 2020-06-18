@@ -55,7 +55,7 @@ nav {
 
 
 header {
-    background-image: url(Images/ShieldHydra.jpg);
+    background-image: url(Images/Yoyo-logo.png);
     background-size: 100%;
     background-position: center;
     height: 80vh;
@@ -78,9 +78,8 @@ header a {
     text-transform: uppercase;
     margin-top: 30px;
 }
-
 a:hover {
-    color: yellow;
+    color: red;
 }
 
 a:active {
@@ -88,7 +87,7 @@ a:active {
 }
 
 header .logo a {
-    background-image: url(Images/TeamImages/HomeLogo.png);
+    background-image: url(Images/Yoyo-logo.png);
     background-size: 100px;
     background-repeat: none;
     display: inline-block;
@@ -152,11 +151,12 @@ h1 {
 
 .shields figure {
     flex: 1 1 25%;
-    background-image: url(Images/TeamImages/HomeLogo.png);
+    background-image: url(Images/Yinyang.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
+    background-color: black;
 
 
 }
@@ -168,20 +168,23 @@ h1 {
 
 
 #LL:hover {
-    background-image: url("Images/TeamImages/ShieldLogo.png");
+    background-image: url("Images/image-removebg-preview.png");
 
 }
 
 #LC:hover {
-    background-image: url("Images/TeamImages/avengersLogo.png");
+    background-image: url("Images/Miracle\ box.png");
 }
 
 #RC:hover {
-    background-image: url("Images/TeamImages/HydraLogo.png");
+    background-image: url("Images/Heart\ No\ Back\ 2.png");
 }
 
 #RR:hover {
-    background-image: url("Images/TeamImages/XmenIcon.png");
+    background-image: url("Images/Heroes\ hover.png");
+}
+#LLL:hover {
+    background-image: url("Images/Heart\ No\ Back\ 2.png");
 }
 
 
