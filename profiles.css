@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
     color: white;
     margin: 0;
@@ -15,51 +17,7 @@ nav {
     transition: top 0.3s;
 }
 
-.button {
-    border-radius: 4px;
-    background-color: #ff0000;
-    border: none;
-    font-family: Bangers;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: 0.5s;
-}
-
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button span:after {
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-
-}
-
-.button span:hover {
-    padding-right: 15px;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    background-color: black;
-}
-
-
 header {
-    background-image: url(Images/ShieldHydra.jpg);
-    background-size: 100%;
-    background-position: center;
-    height: 80vh;
-    width: 100%;
     text-align: center;
     font-family: 'Bangers', cursive;
     padding: 0px;
@@ -125,6 +83,7 @@ header nav ul li {
     font-family: bangers;
     font-size: 36pt;
     -webkit-text-stroke: 1px black;
+    margin-left: 50px;
 }
 
 h1 {
@@ -236,3 +195,55 @@ footer {
     margin-top: 30px;
     flex-basis: 24%;
 }
+
+.profile {
+    color: black;
+    font-family: Raleway;
+    margin: 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.profile-title {
+    font-family: Bangers;
+    font-size: 40px;
+}
+
+.ironman-banner {
+    background-image: url(Images/TeamImages/ironman.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    padding: 0px;
+    border-bottom: 5px solid black;
+}
+
+
+
+.captain-america-banner {
+    background-image: url(Images/TeamImages/captain-america-banner.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    padding: 0px;
+    border-bottom: 5px solid black;
+}
+
+.black-widow-banner {
+    background-image: url(Images/TeamImages/black\ widow\ banner.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    padding: 0px;
+    border-bottom: 5px solid black;
+}
+
