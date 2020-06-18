@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
-    color: white;
+    color: white; 
     margin: 0;
 }
 
@@ -26,32 +28,32 @@ nav {
     padding: 20px;
     width: 200px;
     transition: 0.5s;
-}
-
-.button span {
+  }
+  
+  .button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-}
-
-.button span:after {
+  }
+  
+  .button span:after {
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
+    
+  }
+  
+  .button span:hover {
+      padding-right: 15px;
+  }
 
-}
-
-.button span:hover {
-    padding-right: 15px;
-}
-
-.button:hover span:after {
+  .button:hover span:after {
     opacity: 1;
     background-color: black;
-}
+  }
 
 
 header {
@@ -71,21 +73,21 @@ label {
     font-size: 16pt;
 }
 
-header a {
+header a{ 
     font-size: 16pt;
-    color: white;
+    color: white; 
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 30px;
 }
 
 a:hover {
-    color: yellow;
+    color: yellow; 
 }
 
 a:active {
     color: red;
-}
+  }
 
 header .logo a {
     background-image: url(Images/TeamImages/HomeLogo.png);
@@ -105,55 +107,52 @@ header .logo a {
 }
 
 ul {
-    list-style-type: none;
-    /* get rid of dot points */
+    list-style-type: none; /* get rid of dot points */
 }
 
 header nav ul li {
-    display: inline-block;
-    /*put list horizontal */
+    display: inline-block; /*put list horizontal */
     margin-left: 20px;
-
+   
 }
-
 .headerMessage {
     position: absolute;
     text-align: left;
     top: 40%;
     left: 20%;
     transform: translate(-50%, -50%);
-    font-family: bangers;
+    font-family: bangers; 
     font-size: 36pt;
+    margin: 40px;
     -webkit-text-stroke: 1px black;
 }
 
 h1 {
     margin: 10px 20px;
 }
-
 #teams {
     position: relative;
     width: 100%;
     font-family: bangers;
     font-size: 36pt;
     left: 10%;
-    top: 5%;
+    top: 5%;   
     color: black;
-
+    
 }
 
 .shields {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     height: 80vh;
-    margin: 0;
-
+    margin: 0; 
+    font-family: Raleway; 
 }
 
 .shields figure {
     flex: 1 1 25%;
-    background-image: url(Images/TeamImages/HomeLogo.png);
-    background-position: center;
+    background-image: url(Images/TeamImages/HomeLogo.png);   
+    background-position: center;    
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
@@ -162,26 +161,41 @@ h1 {
 }
 
 .shields figure:hover {
-    background-size: contain;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 
+.iron {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 100px;
+    margin-left: 50px;
+    color: black;
+}
 
-#LL:hover {
-    background-image: url("Images/TeamImages/ShieldLogo.png");
 
+.iron:hover {
+    color:rgba(255, 255, 255, .3);
 }
 
 #LC:hover {
-    background-image: url("Images/TeamImages/avengersLogo.png");
+    background-image: url("Images/TeamImages/captain\ america.jpg");
 }
 
 #RC:hover {
-    background-image: url("Images/TeamImages/HydraLogo.png");
+    background-image: url("Images/TeamImages/black\ widow.jpg");
 }
 
 #RR:hover {
-    background-image: url("Images/TeamImages/XmenIcon.png");
+    background-image: url("Images/TeamImages/hulk.jpg");
+}
+
+#LLL:hover {
+    background-image: url("Images/TeamImages/thor.jpg");
+}
+
+#LLC:hover {
+    background-image: url("Images/TeamImages/hawkeye.jpg")
 }
 
 
@@ -190,11 +204,11 @@ footer {
     flex-direction: space-between;
     justify-content: center;
 
-    height: 30vh;
-
+    height: 25vh;
+    
     background-color: black;
     font-family: Roboto;
-    color: white;
+    color: white;   
 
     border-bottom: 5px solid black;
 }
@@ -206,7 +220,7 @@ footer {
     text-align: center;
 }
 
-#FooterLogo img {
+#FooterLogo img{
     width: 200px;
 }
 
@@ -216,11 +230,11 @@ footer {
     text-align: center;
 }
 
-.Social li {
+.Social li{
     list-style-type: none;
 }
 
-.Social img {
+.Social img{
     width: 40px;
 }
 
@@ -231,7 +245,7 @@ footer {
     text-align: center;
 }
 
-.rightFooterSections {
+.rightFooterSections{
     text-align: center;
     margin-top: 30px;
     flex-basis: 24%;
