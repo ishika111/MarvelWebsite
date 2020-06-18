@@ -176,18 +176,20 @@ h1 {
     background-image: url("Images/Miracle\ box.png");
 }
 
-#RC:hover {
+#RC:hover {vvv
     background-image: url("Images/Heart\ No\ Back\ 2.png");
 }
 
 #RR:hover {
     background-image: url("Images/Heroes\ hover.png");
 }
+#LLC:hover {
+    background-image: url("Images/Hawkmoth\ Mayura\ No\ Back.png");
+}
 #LLL:hover {
     background-image: url("Images/Animated\ louvre.png");
 }
 #RRR:hover {
-    THING
     background-image: url("images/Kitty\ No\ Back.png");
 }
 
