@@ -184,7 +184,10 @@ h1 {
     background-image: url("Images/Heroes\ hover.png");
 }
 #LLL:hover {
-    background-image: url("Images/Heart\ No\ Back\ 2.png");
+    background-image: url("Images/Animated\ louvre.png");
+}
+#RRR:hover {
+    background-image: url("images/Kitty\ No\ Back.");
 }
 
 
